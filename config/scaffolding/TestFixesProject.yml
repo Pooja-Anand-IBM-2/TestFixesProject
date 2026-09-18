@@ -16,3 +16,7 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1202
+- serviceName: pub.date:compareDates
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1202
