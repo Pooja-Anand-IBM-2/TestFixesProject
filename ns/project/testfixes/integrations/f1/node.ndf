@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Pooja.Anand2@ibm.com</value>
-    <value name="createdDate">2026-09-17T11:35:06.155787664Z</value>
-    <value name="lastModifiedDate">2026-09-17T11:35:06.155787664Z</value>
+    <value name="lastModifiedBy">Pooja.Anand2@ibm.com</value>
+    <value name="lastModifiedDate">2026-09-18T11:44:58.303234028Z</value>
     <value name="displayName">f1</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -62,6 +61,52 @@
         <record name="serviceName" javaclass="com.wm.util.Values">
           <value name="displayName">processSignedData</value>
           <value name="serviceName">pub.smime:processSignedData</value>
+          <value name="transformerSupport">true</value>
+        </record>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">SMIME</value>
+          <value name="groupName">smime</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">processSignedData</value>
+          <value name="serviceName">pub.smime:processSignedData</value>
+          <value name="transformerSupport">true</value>
+        </record>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">1</value>
+      </record>
+      <record name="/2" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">SMIME</value>
+          <value name="groupName">smime</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">processSignedData</value>
+          <value name="serviceName">pub.smime:processSignedData</value>
+          <value name="transformerSupport">true</value>
+        </record>
+      </record>
+      <record name="/3" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Date</value>
+          <value name="groupName">date</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">compareDates</value>
+          <value name="serviceName">pub.date:compareDates</value>
           <value name="transformerSupport">true</value>
         </record>
       </record>

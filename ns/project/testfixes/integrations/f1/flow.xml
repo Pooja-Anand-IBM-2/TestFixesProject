@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<FLOW VERSION="3.2" CLEANUP="false">
+<FLOW VERSION="3.2" CLEANUP="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
 
 <INVOKE NAME="SMIME" SERVICE="pub.smime:processSignedData">
+  <COMMENT></COMMENT>
+</INVOKE>
+
+<INVOKE NAME="SMIME" SERVICE="pub.smime:processSignedData">
+  <COMMENT></COMMENT>
+</INVOKE>
+
+<INVOKE NAME="SMIME" SERVICE="pub.smime:processSignedData">
+  <COMMENT></COMMENT>
+</INVOKE>
+
+<INVOKE NAME="Date" SERVICE="pub.date:compareDates">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
